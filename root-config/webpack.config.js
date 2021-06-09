@@ -24,5 +24,12 @@ module.exports = (webpackConfigEnv, argv) => {
         },
       }),
     ],
+    // devServer: {
+    //   headers: {
+    //     "Access-Control-Allow-Origin": "*",
+    //   },
+    //   disableHostCheck: true,
+    //   historyApiFallback: true,
+    // }    
   });
 };
